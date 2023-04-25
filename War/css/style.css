@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    margin: 0%;
+    height: 0%;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    padding: 4px;
+    background-color: white;
+    color: black;
+    border: 5px solid #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    box-shadow: #333;
+    border-radius: 7px;
+    border: 1px solid rgb(192, 190, 190);
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: transform .2s linear;
+}
+

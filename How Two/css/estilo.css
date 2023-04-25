@@ -1,0 +1,43 @@
+body {
+    background-color: #294380;
+    margin: 10px;
+    padding: auto;
+}
+
+.all {
+    background-color: black;
+    border: 5px solid #1c31a5;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 5px black;
+} 
+
+.esquerda {
+    float: left;
+    width: 600px;
+}
+
+.direita {
+    float: right;
+    width: 600px;
+}
+
+.all2 {
+    background-color: black;
+    border: 5px solid #1c31a5;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.link {
+    text-decoration: none;
+    color: cyan;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}

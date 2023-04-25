@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carrosel{
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 900px;
+}
+
+p{
+    margin: 40px;
+}
+
+.form{
+    margin: 80px;
+}

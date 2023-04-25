@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        90deg,
+        rgb(253, 61, 253) 0%,
+        rgb(135, 30, 255) 100%);
+}
+
+header {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.linha {
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.casa {
+    border: 2px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: white;
+}
+
+.playerO {
+    color: white;
+}
+
+button {
+    color: white;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: transparent;
+    box-shadow: 2px 2px 2px black
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px black;
+}
