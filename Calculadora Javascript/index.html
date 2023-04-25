@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Custódio">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/calculadora.js"></script>
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="images/panda.png" alt="cade a imagem" title="Logo do site">
+        </figure>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pages/timeline.html">Linha do Tempo</a>
+            <a href="#">Contato</a>
+            <a href="#">Dicas</a>
+        </nav>
+    </header>
+    
+<main class="container">
+        <section class="container">
+            Informações do projeto
+        </section>
+
+    <section>
+        <form class="form">
+            Número 1: <input class="form-input2" type="number" id="num1" name="num1" required placeholder="Informe um número qualquer"> 
+            Número 2: <input class="form-input2" type="number" id="num2" name="num2" required placeholder="Informe um outro número">
+
+                <input class="form-input2" type="button" id="btn1" value="Somar" onclick="soma();">
+                <input class="form-input2" type="button" id="btn2" value="Subtrair" onclick="sub();">
+                <input class="form-input2" type="button" id="btn3" value="Multiplicar" onclick="mult();">
+                <input class="form-input2" type="button" id="btn4" value="Dividir" onclick="divi();">
+
+            Resultado: <input class="form-input2" type="text" id="resultado" name="resultado">
+        </form>
+    </section>
+</main>
+
+    <script src="/js/time.js"></script>
+    
+    <footer>
+            <p>Made by Gabriel Custódio &copy;</p>
+    </footer>
+</body>
+</html>
