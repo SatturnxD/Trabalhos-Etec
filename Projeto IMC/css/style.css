@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: brown;
+    display: flex;
+    height: 10vh;
+}
+
+header figure img{
+    height: 85%;
+    margin: 5% auto;
+}
+
+main{
+    background-color: aqua;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    background-color: blueviolet;
+    width: 45%;
+    height: 90%;
+    margin-top: 2%;
+}
+
+aside{
+    background-color: blue;
+    width: 45%;
+    height: 90%;
+    margin-top: 2%;
+}
+
+footer{
+    background-color: burlywood;
+    height: 10vh;
+    text-align: center;
+}
