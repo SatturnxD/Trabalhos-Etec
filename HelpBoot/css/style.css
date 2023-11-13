@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-cor-menu{
+    background-color: yellow;
+}
+
+.nav-item{
+    border-radius: 0 10px;
+    transition: 0.2s;
+    padding-left: 8px;
+}
+
+.nav-item:hover{
+    margin-left: 10px;
+    background-color: white;
+}
+
+#container-banner{
+    margin-top: 7em;
+}
+
+.col-12{
+    margin-bottom: 1em;
+}
+
+#add{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 6em;
+}
+
+#view{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 6em;
+}
+
+#arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 6em;
+}
+
+#trash{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 6em;
+}
